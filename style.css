@@ -5,7 +5,7 @@
     padding:0px;
 }
 body,html{
-    background:linear-gradient(#0F0E0E,#541212);
+    background-color:#0F0E0E
 }
 body{
     height: 100vh;
@@ -15,6 +15,8 @@ body{
     align-items: center;
 }
 section#login{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     height: 500px;
     width:  250px;
@@ -22,13 +24,14 @@ section#login{
     overflow: hidden;
     box-shadow: 0px 0px 10px #5412129c;
     border: 1px solid black;
+    transition: width 0.3s,height 0.3s;
+    transition-timing-function: ease;
 }
 section#login > div#img{
     background: #541212 url(pexels-francesco.jpg);
     background-size: cover;
     background-position: center;
     height: 100px;
-    width: 100vw;
 }
 section#login > div#form{
     padding: 10px;
