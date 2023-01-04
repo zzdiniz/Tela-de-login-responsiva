@@ -28,6 +28,7 @@ section#login > div#img{
     background-size: cover;
     background-position: center;
     height: 100px;
+    width: 100vw;
 }
 section#login > div#form{
     padding: 10px;
