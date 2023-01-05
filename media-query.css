@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media(min-width:768px) and (max-width:992px){
     body,html{
         background:linear-gradient(#0F0E0E,#541212);
